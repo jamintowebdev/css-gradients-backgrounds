@@ -4,6 +4,16 @@
     background: red;
 }
 
+/* Main Linear Gradient Heading */
+.headingLinearGradient {
+    text-align: center; 
+    color: blue; 
+    border: 3px solid tomato; 
+    border-radius: 10px; 
+    background: khaki;
+    box-shadow: 0 0 20px 5px turquoise;
+}
+
 .twoColorsBackground {
     width: 500px;
     height: 150px;
@@ -27,5 +37,25 @@
     height: 150px;
     background: linear-gradient(to bottom, red, green, blue, yellow);
 }
+
+.gradientColorDirectionsToLeft {
+    width: 500px;
+    height: 150px;
+    background: linear-gradient(to left, red, green, blue, yellow);
+}
+
+.gradientColorDirectionsToRight {
+    width: 500px;
+    height: 150px;
+
+    /* We need to use this features so that all browsers support our linear gradient */
+
+    background: -moz-linear-gradient(to right, red, green, blue, yellow);
+    background: -o-linear-gradient(to right, red, green, blue, yellow);
+    background: -webkit-linear-gradient(to right, red, green, blue, yellow);
+
+    background: linear-gradient(to right, red, green, blue, yellow);
+}
+
 
 
