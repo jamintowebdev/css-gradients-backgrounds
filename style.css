@@ -1,0 +1,5 @@
+.mydiv {
+    width: 500px;
+    height: 150px;
+    background: linear-gradient(red, green, blue, yellow);
+}
