@@ -57,5 +57,51 @@
     background: linear-gradient(to right, red, green, blue, yellow);
 }
 
+/* Radial Gradient Part starts from here */
+
+
+/* Main Linear Gradient Heading */
+.headingRadialGradient {
+    text-align: center; 
+    color: blue; 
+    border: 3px solid tomato; 
+    border-radius: 10px; 
+    background: khaki;
+    box-shadow: 0 0 20px 5px turquoise;
+}
+
+.radialOneColor {
+    width: 500px;
+    height: 150px;
+    background: red;
+}
+
+
+.radialTwoColor {
+    width: 500px;
+    height: 150px;
+    background: radial-gradient(red, blue);
+}
+
+.radialThreeColor {
+    width: 500px;
+    height: 150px;
+    background: radial-gradient(red, blue, green);
+}
+
+.radialMultipleColor {
+    width: 500px;
+    height: 150px;
+    background: radial-gradient(red, blue, green, yellow, pink);
+}
+
+
+
+
+
+
+
+
+
 
 
