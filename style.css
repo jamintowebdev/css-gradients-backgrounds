@@ -95,6 +95,12 @@
     background: radial-gradient(red, blue, green, yellow, pink);
 }
 
+.radialMultipleColorWithPercentOrPixel {
+    width: 500px;
+    height: 150px;
+    background: radial-gradient(red 10%, blue 20%, green 30%, yellow 20%, pink 20%);
+}
+
 
 
 
