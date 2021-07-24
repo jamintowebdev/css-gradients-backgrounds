@@ -1,5 +1,17 @@
-.mydiv {
+.onlyBackgroundColor {
     width: 500px;
     height: 150px;
-    background: linear-gradient(red, green, blue, yellow);
+    background: red;
+}
+
+.twoColorsBackground {
+    width: 500px;
+    height: 150px;
+    background: linear-gradient(red, green);
+}
+
+.threeColorsBackground {
+    width: 500px;
+    height: 150px;
+    background: linear-gradient(red, green);
 }
